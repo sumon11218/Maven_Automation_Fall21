@@ -9,7 +9,7 @@ public class USPS_Ship_A_Label_POM extends Reusable_Annotations {
 
     @Test
     public void USPS_Verify_Tabs_Then_Ship_A_Label(){
-
+        //Test
         //navigate to usps
         logger.log(LogStatus.INFO,"Navigating to USPS home page");
         driver.navigate().to("https://www.usps.com");
